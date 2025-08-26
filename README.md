@@ -21,5 +21,5 @@ nohup python3 get_data.py > output.log 2>&1 &
 ## Saving mongodb dump from server to local db-container
 
 ```bash
-ssh -i "path\to\ssh-key-2025-02-12.key" ubuntu@158.180.32.121 "docker exec bachelor-mongodb mongodump --db=bachelor --archive --gzip" | docker exec -i bachelor-mongodb mongorestore --archive --gzip --nsInclude='bachelor.*'
+ssh -i "path\to\ssh-key-2025-02-12.key" ubuntu@{bachelor-ip} "docker exec bachelor-mongodb mongodump --db=bachelor --archive --gzip" | docker exec -i bachelor-mongodb mongorestore --archive --gzip --nsInclude='bachelor.*'
 ```
