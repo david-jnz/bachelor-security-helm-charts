@@ -1,10 +1,9 @@
 # bachelor-security-helm-charts
 This repository contains the code for bachelor thesis "Security in Helm Charts: Vulnerabilities and misconfigurations"
 
-## Thesis
+## Thesis & database dump
 The thesis can be found [here](https://drive.google.com/file/d/1vNjUGK6OCcThJ9Ap5r9d6qpWovQyCH7J/view?usp=sharing) (Link to private Google Drive).
 
-## MongoDB Dump
 The database dump can be found [here](https://drive.google.com/file/d/1ESn3K8-WcrAFuK5MoEwTen4mjHfZ_xcC/view?usp=sharing) (Link to private Google Drive).
 
 ## Getting Started
